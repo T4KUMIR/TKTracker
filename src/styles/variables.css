@@ -1,0 +1,51 @@
+/**
+ * variables.css — design tokens.
+ * Palette takes its cues from the PS5 UI: near-black void, cool blue/violet
+ * "light bar" gradient, and rarity colors borrowed from trophy tiers
+ * (bronze/silver/gold/platinum re-imagined as common/rare/epic/legendary).
+ */
+:root {
+  /* Surfaces */
+  --bg-void: #05070d;
+  --bg-base: #0a0e1a;
+  --bg-surface: #10162b;
+  --bg-elevated: #161d38;
+  --glass-bg: rgba(255, 255, 255, 0.045);
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --glass-highlight: rgba(255, 255, 255, 0.14);
+
+  /* Brand / accent gradient (PS5 light bar) */
+  --accent-primary: #00d4ff;
+  --accent-secondary: #7b2ff7;
+  --accent-gradient: linear-gradient(120deg, var(--accent-primary), var(--accent-secondary));
+
+  /* Rarity tiers */
+  --accent-common: #8a94b3;
+  --accent-rare: #2fb4ff;
+  --accent-epic: #b026ff;
+  --accent-legendary: #ffb020;
+
+  /* Status */
+  --success: #00e6a0;
+  --warning: #ffb020;
+  --danger: #ff4d6d;
+
+  /* Text */
+  --text-primary: #f2f5ff;
+  --text-secondary: #8d97b8;
+  --text-muted: #5c6585;
+
+  /* Typography */
+  --font-display: 'Sora', 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Radii / spacing / shadow */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --shadow-glow: 0 8px 40px -8px rgba(0, 212, 255, 0.25);
+  --shadow-card: 0 12px 30px -12px rgba(0, 0, 0, 0.6);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
