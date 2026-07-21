@@ -1,0 +1,10 @@
+{
+  "name": "universal-achievement-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tracker multiplataforma de logros y trofeos.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
