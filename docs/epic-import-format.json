@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Fortnite",
+    "cover": "https://example.com/covers/fortnite.jpg",
+    "playtimeHours": 210,
+    "status": "playing",
+    "favorite": false,
+    "lastPlayed": "2026-07-19T20:00:00Z",
+    "achievementsUnlocked": 55,
+    "achievementsTotal": 100,
+    "achievements": [
+      { "name": "Victoria Royale", "description": "Gana una partida", "unlocked": true }
+    ]
+  },
+  {
+    "title": "Alan Wake II",
+    "playtimeHours": 16,
+    "status": "pending",
+    "achievementsUnlocked": 3,
+    "achievementsTotal": 45
+  }
+]
